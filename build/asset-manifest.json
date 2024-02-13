@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9505d0c9.css",
+    "main.js": "/static/js/main.13eb4ee4.js",
+    "static/media/community.jpg": "/static/media/community.4bcd108e3e38ade92af4.jpg",
+    "static/media/Norcan.PNG": "/static/media/Norcan.c73a10585b4829b1b53b.PNG",
+    "static/media/H.PNG": "/static/media/H.22d5dd86f72e73252241.PNG",
+    "static/media/Mic.PNG": "/static/media/Mic.623170a09dc73f1bcc70.PNG",
+    "index.html": "/index.html",
+    "main.9505d0c9.css.map": "/static/css/main.9505d0c9.css.map",
+    "main.13eb4ee4.js.map": "/static/js/main.13eb4ee4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9505d0c9.css",
+    "static/js/main.13eb4ee4.js"
+  ]
+}
