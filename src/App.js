@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -14,22 +13,21 @@ import Navbar from './Components/Navbar'; // Import your Navbar component
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-    
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/clients" element={<Clients />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<ContactForm />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/community" element={<Community />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+   
+      
+      {/* Render each component directly */}
+      <Home />
+      <About />
+      <Products />
+      <Clients />
+      <Services />
+      <ContactForm />
+      <Projects />
+      <Community />
+      
+      <Footer />
+    </div>
   );
 }
 
